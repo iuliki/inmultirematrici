@@ -83,13 +83,13 @@ namespace inmultirematrici
         {
             if (matrix1 is null)
             {
-                Console.WriteLine($"{nameof(matrix1)} is null, cannot calculate sum!");
+                Console.WriteLine($"{nameof(matrix1)} is null, cannot calculate prod!");
                 return new int[0, 0];
             }
 
             if (matrix2 is null)
             {
-                Console.WriteLine($"{nameof(matrix2)} is null, cannot calculate sum!");
+                Console.WriteLine($"{nameof(matrix2)} is null, cannot calculate prod!");
                 return new int[0, 0];
             }
 
@@ -103,7 +103,7 @@ namespace inmultirematrici
 
             if (rowsCount1 != rowsCount2 || colsCount1 != colsCount2)
             {
-                Console.WriteLine($"Dimensions of the two matrices are not the same, cannot calculate sum!");
+                Console.WriteLine($"Dimensions of the two matrices are not the same, cannot calculate prod!");
                 return new int[0, 0];
             }
 
